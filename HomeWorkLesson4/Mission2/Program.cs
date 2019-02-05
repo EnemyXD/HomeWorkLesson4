@@ -11,7 +11,6 @@ using System.Threading.Tasks;
 //Создать свойство Sum, которые возвращают сумму элементов массива, метод Inverse, меняющий знаки у всех элементов массива, 
 //метод Multi, умножающий каждый элемент массива на определенное число, свойство MaxCount, возвращающее количество максимальных элементов. 
 //В Main продемонстрировать работу класса.
-//б)Добавить конструктор и методы, которые загружают данные из файла и записывают данные в файл.
 
 namespace Mission2
 {
@@ -67,7 +66,7 @@ namespace Mission2
             Console.WriteLine(Multi);
 
             Console.WriteLine($"...................");
-            Console.WriteLine($".......MaxValue.....");
+            Console.WriteLine($".......MaxCount....");
             Console.WriteLine($"...................");
 
             int MaxValue = Helper.MaxCount(Array1.MainArray);
